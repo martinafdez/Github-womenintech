@@ -9,14 +9,18 @@
 .jumbotron h1 {
   color: DarkRed;
   font-family: georgia;
-  font-size: 80px;
+  font-size: 90px;
   text-align: center;
   border-style: dotted;
 }
 
+img {
+  border: 10px solid DarkRed;
+}
+
 .blockquote h2 {
   font-family: georgia;
-  font-size: 50px;
+  font-size: 45px;
   color:DarkRed;
 }
 
@@ -24,4 +28,17 @@
   font-family: georgia;
   font-size: 20px;
   list-style-type: none;
+}
+
+.mainbiohead  {
+  font-family: georgia;
+  font-size: 45px;
+  color: DarkRed;
+  text-align: center;
+}
+
+.bioparagraph {
+  font-family: georgia;
+  font-size: 20px;
+
 }
