@@ -57,3 +57,7 @@ img {
 .quotesection footer {
   color: DarkRed;
 }
+
+.sourcelink p {
+  color: black;
+}
