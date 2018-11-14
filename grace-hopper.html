@@ -8,43 +8,69 @@
   <link rel="stylesheet" href="css/gracehopper.css">
   <meta charset="utf-8" />
 </head>
-
 <body>
-  <header class="jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-    <ul class="nav">
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./ada-lovelace.html">Ada Lovelace</a></li>
-      <li><a href="./katherine-johnson.html">Katherine Johnson</a></li>
-    </ul>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Women in Tech</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Ada Lovelace<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Katherine Johnson</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </nav>
+
+
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
     <header id="masthead">
       <h1>Grace Hopper</h1>
     </header>
-    <section id="figuregrace">
+
+    <section id="figuregrace" class="text-center">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6">
       <figure>
-        <img src="C:\Users\612383263\desktop\coding-course\women-in-tech\images\Commodore_Grace_M_Hopper_USN.jpg" width="275" height="400" alt="Picture of Commodore Grace M Hopper." class="rounded" />
+        <img src="images\Commodore_Grace_M_Hopper_USN.jpg" width="275" height="400" alt="Picture of Commodore Grace M Hopper." class="rounded-circle" />
       </figure>
-
-      <sectionc id="shortbio">
-
-        <h2>Short Bio:</h2>
-        <ul>
-          <li><strong>Born:</strong>Grace Murray Hopper, December 9, 1906, New York City, New York, </li>
-          <li><strong>Nicknames:</strong>"Amazing Grace", "Grandma COBOL"</li>
-          <li><strong>Died:</strong>January 1, 1992, Arlington, Virginia,</li>
-          <li><strong>U.S Served:</strong>United States Navy</li>
-          <li><strong>Years of Service:</strong>1943–1966, 1967–1971, 1972–1986</li>
-          <li><strong>Rank:</strong>Rear admiral (lower half)</li>
-        </ul>
-      </section>
     </section>
+
+      <section id="shortbio">
+       <h2>Short Bio:</h2>
+        <ul>
+          <li><strong>Born:</strong> Grace Murray Hopper, December 9, 1906, New York City, New York, </li>
+          <li><strong>Nicknames:</strong> "Amazing Grace", "Grandma COBOL"</li>
+          <li><strong>Died:</strong> January 1, 1992, Arlington, Virginia,</li>
+          <li><strong>U.S Served:</strong> United States Navy</li>
+          <li><strong>Years of Service:</strong> 1943–1966, 1967–1971, 1972–1986</li>
+          <li><strong>Rank:</strong> Rear admiral (lower half)</li>
+        </ul>
+
+      </div><!--closes column for these 2 sections-->
+      </div><!--closing my row for figure and shortbio-->
+    </div><!--container in figuregrace-->
+      </section>
+
     <hr />
 
     <main>
       <section>
         <aside id="longbio">
+          <div class="container">
+          <div class="row">
           <h2>Long Bio:</h2>
           <p>
             Grace Brewster Murray Hopper (née Murray) was an American computer scientist and United States Navy rear admiral. One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of
@@ -72,39 +98,43 @@
           </p>
           On New Year's Day 1992, Hopper died in her sleep of natural causes at her home in Arlington, Virginia; she was 85 years of age. She was interred with full military honors in Arlington National Cemetery.
           </p>
-          <aside id="quotesgrace">
+        </div><!--closing row for long bio-->
+      </div><!--close container in longbio-->
       </section>
       <hr />
 
-      <section>
-        <em>
-          <h2>Quotes by Grace Hopper</h2>
+      <section id="quotesgrace">
+        <div class="container">
+        <div class="row">
+          <h2><small class="text-muted">Famous quotes</small><br />By Grace Hopper</h2>
+            <div class="row">
 
+              <blockquote class="col-md-6 blockquote">
+              <p>
+              <em>"If it is a good idea, go ahead and do it. It is much easier to apologize than to get permission."</em>
+          </p>
+                <footer class="blockquote-footer">1971</footer>
+              </blockquote>
 
-          <blockquote>
-            <p>
-              "If it is a good idea, go ahead and do it. It is much easier to apologize than to get permission."
-            </p>
-          </blockquote>
-
-          <blockquote>
-            <p>
-              "The most dangerous phrase in the language is, 'We've always done it this way'.
-            </p>
-          </blockquote>
-        </em>
-      </section>
+              <blockquote class="col-md-6 blockquote">
+                <p><em>  "The most dangerous phrase in the language is, 'We've always done it this way.'</em>
+          </p>
+                <footer class="blockquote-footer">1980</footer>
+              </blockquote>
+              </blockquote>
       <hr />
 
     </main>
 
 
     <footer>
-      <footer id="colophon">
+      <section id="colophon">
+        <div class="row">
         Source:<a href="https://en.wikipedia.org/wiki/Grace_Hopper">https://en.wikipedia.org/wiki/Grace_Hopper</a>
-      </footer>
+</div><!--closing my div for colophon-->
+      </section>
     </footer>
-  </div>
+
 </div> <!--closing my row div-->
 </div> <!--closing my column div-->
 </div><!--closes row of jumbotron-->

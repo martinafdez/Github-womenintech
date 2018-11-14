@@ -1,0 +1,20 @@
+.jumbotron {
+  background-color: DarkSalmon;
+}
+
+.jumbotron h1 {
+  color: DarkRed;
+  font-family: georgia;
+  font-size: 80px;
+  text-align: center;
+  border-style: dotted;
+}
+
+
+img.rounded {
+  border-radius: 50%;
+  border-color: DarkRed;
+  border-width: 20%
+  height: 380px;
+  width: 380px;
+}
