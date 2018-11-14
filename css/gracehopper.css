@@ -14,13 +14,14 @@
   border-style: dotted;
 }
 
-
-img.rounded {
-  border-radius: 50%;
-  border-color: DarkRed;
-  border-width: 20%
-  height: 380px;
-  width: 380px;
+.blockquote h2 {
+  font-family: georgia;
+  font-size: 50px;
+  color:DarkRed;
 }
 
-.
+.blockquote li {
+  font-family: georgia;
+  font-size: 20px;
+  list-style-type: none;
+}
