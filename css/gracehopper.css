@@ -42,3 +42,18 @@ img {
   font-size: 20px;
 
 }
+
+.quotesection h2 {
+  font-family: georgia;
+  font-size: 45px;
+  color: DarkRed;
+  text-align: center;
+}
+
+.quotesection p  {
+  font-family:georgia;
+}
+
+.quotesection footer {
+  color: DarkRed;
+}
