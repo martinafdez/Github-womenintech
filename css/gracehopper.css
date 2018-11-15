@@ -81,3 +81,17 @@ img {
   background-color: DarkRed;
   color: white;
 }
+
+@media screen and (min-width: 1024px) {
+  #figuregrace {
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 11%;
+  }
+
+  #longbio {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+  }
+}
