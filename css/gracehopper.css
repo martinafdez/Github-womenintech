@@ -22,10 +22,12 @@ img {
 
 .shortbio {
   border-style: dotted;
+  border-width: 2px;
 }
 
 .mainbiohead {
   border-style: dotted;
+  border-width: 2px;
 }
 
 .blockquote h2 {
@@ -63,6 +65,7 @@ img {
   font-family: Arial;
   color: DarkRed;
   border-style: dotted;
+  border-width: 2px;
 }
 
 .blockquote-footer {
