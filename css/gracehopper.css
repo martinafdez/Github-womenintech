@@ -45,32 +45,35 @@ img {
 
 }
 
-.quotesection h2 {
+.gracequotesection h2 {
   font-family: georgia;
   font-size: 45px;
   color: DarkRed;
   text-align: center;
 }
 
-.quotesection p  {
-  font-family:georgia;
+.gracequotesection p {
+
+  font-family: georgia;
+  text-align: left;
 }
 
-.quotesection footer {
+.blockquote-footer {
   color: DarkRed;
+  font-family: georgia;
 }
 
 .sourcelink p {
   color: black;
 }
 
-.quotesection button {
-
+.nextpagebutton {
   text-align: right;
 }
 
 .next {
   color: DarkRed;
+  text-align: right;
 
 }
 
