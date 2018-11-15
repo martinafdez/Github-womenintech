@@ -61,3 +61,13 @@ img {
 .sourcelink p {
   color: black;
 }
+
+.quotesection button {
+
+  text-align: right;
+}
+
+.next {
+  color: DarkRed;
+
+}
