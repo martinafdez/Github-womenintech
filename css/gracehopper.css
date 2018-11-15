@@ -6,6 +6,8 @@
   background-color: DarkSalmon;
 }
 
+
+
 .jumbotron h1 {
   color: DarkRed;
   font-family: georgia;
@@ -30,7 +32,7 @@ img {
   list-style-type: none;
 }
 
-.mainbiohead  {
+.mainbiohead {
   font-family: georgia;
   font-size: 45px;
   color: DarkRed;
