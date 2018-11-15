@@ -71,3 +71,8 @@ img {
   color: DarkRed;
 
 }
+
+.next a:hover {
+  background-color: DarkRed;
+  color: white;
+}
