@@ -10,7 +10,7 @@
 
 .jumbotron h1 {
   color: DarkRed;
-  font-family: georgia;
+  font-family: arial;
   font-size: 90px;
   text-align: center;
   border-style: dotted;
@@ -22,26 +22,26 @@ img {
 
 
 .blockquote h2 {
-  font-family: georgia;
+  font-family: arial;
   font-size: 45px;
   color:DarkRed;
 }
 
 .blockquote li {
-  font-family: georgia;
+  font-family: arial;
   font-size: 20px;
   list-style-type: none;
 }
 
 .mainbiohead {
-  font-family: georgia;
+  font-family: arial;
   font-size: 45px;
   color: DarkRed;
   text-align: center;
 }
 
 .bioparagraph {
-  font-family: georgia;
+  font-family: Arial;
   font-size: 20px;
 
 }
@@ -52,11 +52,14 @@ img {
   text-align: center;
 }
 
-
+.quoteh2 {
+  font-family: Arial;
+  color: DarkRed;
+}
 
 .blockquote-footer {
   color: DarkRed;
-  font-family: georgia;
+  font-family: arial;
   text-align: left;
 }
 
