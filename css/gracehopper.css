@@ -46,22 +46,18 @@ img {
 
 }
 
-.quotesgrace h2 {
-  font-family: georgia;
-  font-size: 45px;
-  color: DarkRed;
+.blockquotegrace {
+  font-family: arial;
+  font-size: 20px;
   text-align: center;
 }
 
-.gracequotesection p {
 
-  font-family: georgia;
-  text-align: left;
-}
 
 .blockquote-footer {
   color: DarkRed;
   font-family: georgia;
+  text-align: left;
 }
 
 .sourcelink p {
