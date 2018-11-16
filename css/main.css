@@ -1,7 +1,6 @@
 .jumbotron {
-  background-color:DarkSalmon;
+  background-color: DarkSalmon;
 }
-
 
 .jumbotron h1 {
   color: DarkRed;
@@ -10,7 +9,6 @@
   text-align: center;
   border-style: dotted;
 }
-
 
 .rounded {
   border-radius: 50%;

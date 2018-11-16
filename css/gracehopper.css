@@ -2,17 +2,13 @@
   background-color: DarkSalmon;
 }
 
-
-..navbar-light .navbar-nav> li>: a:{
+..navbar-light .navbar-nav>li>: a: {
   color: white;
 }
-
 
 .jumbotron {
   background-color: DarkSalmon;
 }
-
-
 
 .jumbotron h1 {
   color: DarkRed;
@@ -39,7 +35,7 @@ img {
 .blockquote h2 {
   font-family: arial;
   font-size: 45px;
-  color:DarkRed;
+  color: DarkRed;
 }
 
 .blockquote li {
@@ -58,7 +54,6 @@ img {
 .bioparagraph {
   font-family: Arial;
   font-size: 20px;
-
 }
 
 .blockquotegrace {
@@ -91,7 +86,6 @@ img {
 .next {
   color: DarkRed;
   text-align: right;
-
 }
 
 .next a:hover {
