@@ -2,6 +2,12 @@
   background-color: DarkSalmon;
 }
 
+
+..navbar-light .navbar-nav> li>: a:{
+  color: white;
+}
+
+
 .jumbotron {
   background-color: DarkSalmon;
 }
